@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.company.fontawesomepropoc.web.screens.Testicons"
+        messagesPack="com.company.fontawesomepropoc.web.screens">
+    <dialogMode height="600"
+                width="800"/>
+    <layout>
+        <buttonsPanel>
+            <button caption="Regular"
+                    icon="FAR_CREDIT_CARD_FRONT"/>
+            <button caption="Solid"
+                    icon="FAS_CREDIT_CARD_FRONT"/>
+            <button caption="Light"
+                    icon="FAL_CREDIT_CARD_FRONT"/>
+            <button caption="Brand"
+                    icon="FAB_YAHOO"/>
+        </buttonsPanel>
+        <buttonsPanel>
+            <button caption="Spin"
+                    icon="FAR_AMBULANCE"
+                    stylename="fa-spin"/>
+            <button caption="Pulse"
+                    icon="FAR_AMBULANCE"
+                    stylename="fa-pulse"/>
+            <button caption="Size"
+                    icon="FAR_AMBULANCE"
+                    stylename="fa-8x"/>
+            <button caption="Border"
+                    icon="FAR_AMBULANCE"
+                    stylename="fa-border testbackground"/>
+        </buttonsPanel>
+        <buttonsPanel>
+            <button caption="Inverse"
+                    icon="FAR_AMBULANCE"
+                    stylename="fa-inverse testbackground"/>
+            <button caption="Rotate 90"
+                    icon="FAR_AMBULANCE"
+                    stylename="fa-rotate-90"/>
+            <button caption="Flip Horizontal"
+                    icon="FAR_AMBULANCE"
+                    stylename="fa-flip-horizontal"/>
+        </buttonsPanel>
+    </layout>
+</window>

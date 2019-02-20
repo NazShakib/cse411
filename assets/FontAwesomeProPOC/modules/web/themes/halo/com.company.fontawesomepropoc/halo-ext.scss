@@ -1,0 +1,10 @@
+@import "../fontawesome/FontAwesomePro.scss";
+
+/* Define your theme modifications inside next mixin */
+@mixin com_company_fontawesomepropoc-halo-ext {
+  @include font-awesome-pro;
+
+  .testbackground {
+    background: darkgoldenrod;
+  }
+}
